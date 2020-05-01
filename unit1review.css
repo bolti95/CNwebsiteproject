@@ -1,0 +1,96 @@
+  
+  body {
+      
+    background-image: url('black.jpg');
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* background-color:hotpink; */
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: hotpink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:link {
+  color: cornflowerblue;
+}
+a:active {
+  color: cornflowerblue;
+}
+a:visited {
+  color: cornflowerblue;
+}
+a:hover {
+  color: hotpink;
+}
+
+
+    
+  .unit1reviewText {
+    color: white;
+    background-color: black;
+    text-align: left;
+    width: 50vw;
+    display: flexbox;
+    border-left: black;
+    border-right: black;
+    margin-left: auto;
+        margin-right: auto;
+  }
